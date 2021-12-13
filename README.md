@@ -3,17 +3,17 @@
 Create an endpoint for a crowd-sourced delivery application which takes a POST request at the /delivery route with a JSON body with the following structure:
 
 ```json
-{ "userId" : int }
+{ "userId" : "int" }
 ```
 
 The request will respond with the following JSON:
 
 ```json
 { 
-    "assignmentId" : string,
-    "locationId" : string,
-    "estimatedTime" : int,
-    "worstCaseTime" : int
+    "assignmentId" : "string",
+    "locationId" : "string",
+    "estimatedTime" : "int",
+    "worstCaseTime" : "int"
 }
 ```
 
@@ -33,7 +33,7 @@ In order to get this information, the delivery service should query two other mi
 
 ```json
 {
-   "userId" : int
+   "userId" : "int"
 }
 ```
 
@@ -41,8 +41,8 @@ In order to get this information, the delivery service should query two other mi
 
 ```json
 {
-   "assignmentId" : string,
-   "locationId" : string
+   "assignmentId" : "string",
+   "locationId" : "string"
 }
 ```
 
@@ -56,8 +56,8 @@ In order to get this information, the delivery service should query two other mi
 
 ```json
 {
-   "userId" : int,
-   "locationId" : string
+   "userId" : "int",
+   "locationId" : "string"
 }
 ```
 
@@ -65,8 +65,8 @@ In order to get this information, the delivery service should query two other mi
 
 ```json
 {
-    "estimatedTime" : int,
-    "worstCaseTime" : int
+    "estimatedTime" : "int",
+    "worstCaseTime" : "int"
 }
 ```
 
