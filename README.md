@@ -27,6 +27,8 @@ In order to get this information, the delivery service should query two other mi
 
  ## Assignment Service
 
+A service which takes a userId as unput, then generates a a delivery assignment for that user.
+
 * url: https://webhook.site/9d7ed143-f241-47b6-8618-6c33a19e6893
 * method: POST
 * request body format (JSON):
@@ -46,9 +48,9 @@ In order to get this information, the delivery service should query two other mi
 }
 ```
 
-... and another which takes a userId and a locationId then generates estimated arrival times:
-
 ## Arrival Time Service
+
+A service which takes a userId and destination locationId as input, then generates an arrival time estimate for the user to arrive at that location.
 
 * url : https://webhook.site/5d993174-387e-4153-99b0-da679408e730
 * method: POST
