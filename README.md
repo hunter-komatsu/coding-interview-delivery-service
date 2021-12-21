@@ -27,7 +27,7 @@ In order to get this information, the delivery service should query two other mi
 
  ## Assignment Service
 
-A service which takes a userId as unput, then generates a a delivery assignment for that user.
+A service which takes a userId as input, then generates a a delivery assignment for that user.
 
 * url: https://webhook.site/58953af8-2afc-4f52-bf9f-f9f74083eeb3
 * method: POST
