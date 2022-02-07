@@ -29,7 +29,7 @@ In order to get this information, the delivery service should query two other mi
 
 A service which takes a userId as input, then generates a a delivery assignment for that user.
 
-* url: <assignment URL>
+* url: \<assignment URL\>
 * method: POST
 * request body format (JSON):
 
@@ -52,7 +52,7 @@ A service which takes a userId as input, then generates a a delivery assignment 
 
 A service which takes a userId and destination locationId as input, then generates an arrival time estimate for the user to arrive at that location.
 
-* url : <arrival time URL>
+* url : \<arrival time URL\>
 * method: POST
 * request body format:
 
